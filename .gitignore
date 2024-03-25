@@ -13,3 +13,4 @@ src/declarations
 
 # Azle
 .azle
+ node_modules
