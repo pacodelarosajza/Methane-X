@@ -1,0 +1,50 @@
+header {
+    padding: 1em;
+    text-align: center;
+    position: relative;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('Images/Vacas.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    text-align: center;
+    background-color: #1eff0089;
+    text-shadow: 0 0 5px #ffffff,
+            0 0 25px #ffffff,
+            0 0 50px #ffffff,
+            0 0 100px #ffffff;
+        padding: -0.5em;
+        text-align: center;
+        box-shadow: 0 4px 12px rgb(0, 0, 0, 0.1);
+}
+.navlinks {
+    display: flex;
+    gap: 15rem;
+    margin-left: 560px;
+    
+}
+
+main {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1100px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 24px 36px;
+}
+
+footer {
+    background-color: #333;
+            padding: 1em;
+            text-align: center;
+}

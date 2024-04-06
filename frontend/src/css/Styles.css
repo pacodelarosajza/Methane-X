@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #068b92;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.Logo{
+    margin-left: 30px;
+}
+
+.Logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25spx;
+}
+
+.navbar a:hover{
+    background: #e91e63;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500%;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../Images/Quienes\ somos.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat center;
+        background-size: 1700px 400px;
+        
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 150px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #e91e63;
+    color: #fff;
+    text-decoration: none;
+    background-color: #e91e63;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.contenido{
+    background-color: #a7a7a7fe;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(88, 87, 87);
+}
+
+table{
+    width: 800px;
+    border: solid 1px rgb(0, 0, 0);
+    color: #000000;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    background: rgb(243, 140, 210);
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.995);
+}
+
+tbody tr{
+    cursor: pointer;
+}
+
+tbody tr:hover{
+    background: rgb(202, 79, 163);
+}
+
+.sau {
+    padding: 50px 0;
+    background-color: color-mix(in srgb, #11a218 60%, #1179a2 70%);
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 170px;
+    width: 270px;
+    background: #171717;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgb(0, 0, 0, .3);
+    margin: 20px;
+}
+
+.box-container .box i{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #e91e63;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: #e91e63;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.problem{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../Images/Vacas.jpg);
+    background-repeat: no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.about{
+    background: #93a508;
+    padding: 50px 0;
+}
+
+.box-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container2 .box{
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgb(0, 0, 0, .3);
+    background: #171717;
+    margin: 20px 20px;
+}
+
+.box-container2 .box img{
+    background-image: url(../Images/User.png);
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-top: -50px;
+    border: 6px solid #e91e63;
+}
+
+
+.box-container2 .box h3{
+    font-size: 20px;
+    color: #e91e63;
+    padding-top: 10px;
+}
+
+.box-container2 .box p{
+    font-size: 18px;
+    color: #fff;
+    padding: 0;
+}
+
+.box-container2 .box .stars i{
+    font-size: 15px;
+    color: #e91e63;
+}
+
+.solution{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../Images/Pasto2.jpeg);
+    background-repeat: no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.contact{
+    padding: 50px 0;
+    background: #2e2e2e;
+}
+
+.footer-section{
+    display: flex;
+
+}
+
+.f-enlaces{
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 40%;
+    color: #fff;
+    background: #e91e63;
+    
+}
+
+.f-enlaces a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px){
+    p{
+        padding: 0 50px;
+    }
+    .title{
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+    .sau{
+        height: 100vh;
+        padding: 50px 0;
+    }
+    .about{
+        height: 100vh;
+        padding: 50px 0;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-enlaces{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+}
